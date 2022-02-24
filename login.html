@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tk = prompt('Bạn là ai: ' );
+
+    if(tk == 'Admin'){
+        // alert('Welcome');
+        let mk = prompt('Nhập password');
+
+        if(mk == 'TheMaster'){
+            alert('Welcome')
+        }else if(mk == null){
+            alert('Canceled');
+        }else {
+            alert('Wrong password');
+        }
+    }else if(tk == null){
+        alert('Canceled');
+    }else {
+        alert("I don't know you ");
+    }
+
+
+</script>
+</body>
+</html>
